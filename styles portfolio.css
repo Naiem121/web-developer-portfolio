@@ -1,6 +1,7 @@
 /* common Share styles */
 body{
     font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 .text-primary{
     color: #FD6E0A;
@@ -131,9 +132,37 @@ margin: 130px 0;
 
 }
 /* resume section style */
+
 .resume-colam-title{
  color: #474747;
 font-size: 30px;
 font-weight: 700;
 
+}
+.resumi-contaainer{
+    display: flex;
+    gap: 50px;
+}
+.resume-item-discription{
+    color: #75757575.;
+}
+.resume-item-title{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+}
+.resume-item-inestute{
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+.resume-item-inestute,
+.resume-item-discription{
+    color: #757575;
+}
+.resume-container hr{
+    margin: 30px;
+}
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
 }
